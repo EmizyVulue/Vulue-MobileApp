@@ -1,0 +1,200 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 452px;
+    height: 94px;
+    margin: 0 auto;
+  }
+  .rectangle {
+    position: absolute;
+    width: 452px;
+    height: 94px;
+    top: 0;
+    left: 0;
+    background: #000000;
+  }
+  .folder-hold {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    left: 176px;
+    z-index: 13;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 20px;
+    height: 16.375px;
+    margin: 0 0 0 0;
+    background: url(../assets/images/1a4620be-fd2e-427c-abd3-26855315c59a.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+  }
+  .user-circle-alt {
+    position: absolute;
+    width: 11px;
+    height: 15.225px;
+    top: 30.2px;
+    left: 372.5px;
+    z-index: 8;
+  }
+  .vector-1 {
+    position: relative;
+    width: 8.6px;
+    height: 8.3px;
+    margin: -1px 0 0 1.203px;
+    background: url(../assets/images/ebab7618-bc3e-4c0a-9f77-e27cbc6c8730.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+  .vector-2 {
+    position: relative;
+    width: 13px;
+    height: 8.3px;
+    margin: 0.63px 0 0 -1px;
+    background: url(../assets/images/3fc5ac55-1e44-48ee-b00d-07f6781fc6b1.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+  }
+  .duck-icon-home {
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    top: 31px;
+    left: 69px;
+    z-index: 5;
+  }
+  .vector-3 {
+    position: relative;
+    width: 17px;
+    height: 9px;
+    margin: -1px 0 0 -1px;
+    background: url(../assets/images/42569ed8-f454-42bf-bf3b-6f21a5321a91.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 6;
+  }
+  .vector-4 {
+    position: relative;
+    width: 16.777px;
+    height: 10.313px;
+    margin: -1.312px 0 0 -0.89px;
+    background: url(../assets/images/4ca4a280-1486-41c8-a998-ad85646352c5.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 7;
+  }
+  .presentation-board-graph {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    top: 31px;
+    left: 272px;
+    z-index: 11;
+    overflow: hidden;
+  }
+  .vector-5 {
+    position: relative;
+    width: 13.375px;
+    height: 6.5px;
+    margin: 4.25px 0 0 2.813px;
+    background: url(../assets/images/fb0baafa-1f70-4da2-b22b-5a41b1385492.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 55px;
+    left: 64px;
+    color: #646363;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 55px;
+    left: 169px;
+    color: #696969;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .invest {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 55px;
+    left: 270px;
+    color: #ebf0ff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .account {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 55px;
+    left: 361px;
+    color: #696969;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  
